@@ -1,0 +1,20 @@
+2026-07-09 07:14:22 INFO User john logged in successfully from 192.168.1.25
+2026-07-09 07:15:03 INFO File report.pdf opened
+2026-07-09 07:18:47 WARNING Disk usage is above 85%
+2026-07-09 07:20:14 ERROR Failed login attempt for user admin from 203.0.113.15
+2026-07-09 07:22:01 INFO Windows Update started
+2026-07-09 07:24:30 ERROR Unable to connect to database
+2026-07-09 07:26:45 INFO Backup completed successfully
+2026-07-09 07:28:18 WARNING High memory usage detected (91%)
+2026-07-09 07:31:55 ERROR Antivirus service stopped unexpectedly
+2026-07-09 07:33:09 INFO Service restarted automatically
+2026-07-09 07:35:41 ERROR Multiple failed login attempts detected
+2026-07-09 07:38:52 WARNING CPU temperature exceeds threshold
+2026-07-09 07:40:17 INFO User sarah logged out
+2026-07-09 07:43:08 ERROR Access denied to confidential.txt
+2026-07-09 07:46:59 INFO Scheduled task completed
+2026-07-09 07:49:33 WARNING Network latency is high
+2026-07-09 07:52:18 ERROR Firewall service unavailable
+2026-07-09 07:55:07 INFO Firewall service restarted
+2026-07-09 07:57:26 ERROR Suspicious PowerShell execution detected
+2026-07-09 08:00:00 INFO End of log
