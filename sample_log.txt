@@ -1,20 +1,29 @@
-2026-07-09 07:14:22 INFO User john logged in successfully from 192.168.1.25
-2026-07-09 07:15:03 INFO File report.pdf opened
-2026-07-09 07:18:47 WARNING Disk usage is above 85%
-2026-07-09 07:20:14 ERROR Failed login attempt for user admin from 203.0.113.15
-2026-07-09 07:22:01 INFO Windows Update started
-2026-07-09 07:24:30 ERROR Unable to connect to database
-2026-07-09 07:26:45 INFO Backup completed successfully
-2026-07-09 07:28:18 WARNING High memory usage detected (91%)
-2026-07-09 07:31:55 ERROR Antivirus service stopped unexpectedly
-2026-07-09 07:33:09 INFO Service restarted automatically
-2026-07-09 07:35:41 ERROR Multiple failed login attempts detected
-2026-07-09 07:38:52 WARNING CPU temperature exceeds threshold
-2026-07-09 07:40:17 INFO User sarah logged out
-2026-07-09 07:43:08 ERROR Access denied to confidential.txt
-2026-07-09 07:46:59 INFO Scheduled task completed
-2026-07-09 07:49:33 WARNING Network latency is high
-2026-07-09 07:52:18 ERROR Firewall service unavailable
-2026-07-09 07:55:07 INFO Firewall service restarted
-2026-07-09 07:57:26 ERROR Suspicious PowerShell execution detected
-2026-07-09 08:00:00 INFO End of log
+2026-07-14 09:01:22 INFO User 'jsmith' logged in from 192.168.1.50
+2026-07-14 09:02:10 WARNING Password attempt failed for user 'admin' from 8.8.8.8
+2026-07-14 09:02:11 ERROR Failed login attempt from 8.8.8.8
+2026-07-14 09:03:45 INFO File 'report.pdf' accessed by user 'mturner'
+2026-07-14 09:04:12 ERROR Failed login attempt from 203.0.113.45
+2026-07-14 09:04:13 WARNING Multiple failed login attempts detected from 203.0.113.45
+2026-07-14 09:05:01 INFO User 'admin' logged in from 10.0.0.99
+2026-07-14 09:06:22 INFO Scheduled backup completed successfully
+2026-07-14 09:07:55 ERROR Failed login attempt from 185.199.108.153
+2026-07-14 09:08:01 WARNING Multiple failed login attempts detected from 185.199.108.153
+2026-07-14 09:09:14 INFO User 'guest' logged out
+2026-07-14 09:10:33 ERROR Failed login attempt from 1.1.1.1
+2026-07-14 09:11:02 INFO System health check passed
+2026-07-14 09:12:44 WARNING Password attempt failed for user 'root' from 23.216.147.64
+2026-07-14 09:13:01 ERROR Failed login attempt from 23.216.147.64
+2026-07-14 09:14:22 INFO User 'jsmith' accessed 'config.yaml'
+2026-07-14 09:15:55 ERROR Failed login attempt from 198.51.100.23
+2026-07-14 09:16:01 WARNING Multiple failed login attempts detected from 198.51.100.23
+2026-07-14 09:17:33 INFO User 'mturner' changed password
+2026-07-14 09:18:44 ERROR Failed login attempt from 8.8.4.4
+2026-07-14 09:19:01 INFO Antivirus scan completed — no threats found
+2026-07-14 09:20:12 WARNING Password attempt failed for user 'admin' from 192.168.1.50
+2026-07-14 09:21:33 ERROR Failed login attempt from 203.0.113.45
+2026-07-14 09:22:01 WARNING Multiple failed login attempts detected from 203.0.113.45
+2026-07-14 09:23:44 INFO User 'guest' logged in from 10.0.0.99
+2026-07-14 09:24:55 ERROR Failed login attempt from 185.199.108.153
+2026-07-14 09:25:01 WARNING Multiple failed login attempts detected from 185.199.108.153
+2026-07-14 09:26:33 INFO System update installed successfully
+2026-07-14 09:27:44 ERROR Failed login attempt from 1.1.1.1
