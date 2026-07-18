@@ -1,8 +1,12 @@
-SIEM Log Analyser
+🛡 SIEM Log Analyser
+
 Overview
 
-The SIEM Log Analyser is a Python project designed to analyse security log files and present key information in a clear, readable format. The aim is to replicate some of the core tasks performed by Security Operations Centre (SOC) analysts, such as identifying errors, summarising events, searching logs, and highlighting suspicious activity.
-This project is being developed incrementally as I learn Python, with each new feature introducing new programming concepts and improving the overall application.
+# SIEM Log Analyser
+
+A Python-based Security Information and Event Management (SIEM) log analyser built to simulate common Security Operations Centre (SOC) tasks.
+
+This project was created while teaching myself Python and cybersecurity. Each version introduces new concepts, gradually improving both the application and my programming skills.
 
 
 Why I Built This Project
@@ -35,6 +39,14 @@ Technologies Used
     - File Handling 
     - Command Line Interface (CLI)
 
+Screenshots
+<img width="814" height="515" alt="suspicious_IP screenshot" src="https://github.com/user-attachments/assets/5d949b13-ec50-4258-88ab-a1daabc00c94" />
+<img width="362" height="128" alt="security_summary screenshot" src="https://github.com/user-attachments/assets/6cd22608-d26b-470a-9ae5-3159f9f4c08a" />
+<img width="357" height="228" alt="event_summary screenshot" src="https://github.com/user-attachments/assets/e4a34103-ac29-41c7-9148-4f97879b319c" />
+<img width="381" height="312" alt="Main_menu Screenshot" src="https://github.com/user-attachments/assets/e00944ae-1b87-4246-b51c-8b2d0cf2286d" />
+
+
+
 Roadmap
 Version 0.4
     -  Added GeoIP to the IP detection feature
@@ -63,4 +75,10 @@ Planned features include:
     - Improve report formatting. 
     - Add configurable threat intelligence lists. 
     - Refactor the project into a more modular architecture. 
-    • Improve error handling and validation.
+    - Improve error handling and validation.
+
+How to install
+    - git clone ...
+    - cd ...
+    - pip install -r requirements.txt
+    - python main.py
