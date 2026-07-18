@@ -40,6 +40,7 @@ Technologies Used
     - Command Line Interface (CLI)
 
 Screenshots
+
 <img width="814" height="515" alt="suspicious_IP screenshot" src="https://github.com/user-attachments/assets/5d949b13-ec50-4258-88ab-a1daabc00c94" />
 <img width="362" height="128" alt="security_summary screenshot" src="https://github.com/user-attachments/assets/6cd22608-d26b-470a-9ae5-3159f9f4c08a" />
 <img width="357" height="228" alt="event_summary screenshot" src="https://github.com/user-attachments/assets/e4a34103-ac29-41c7-9148-4f97879b319c" />
