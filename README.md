@@ -87,7 +87,9 @@ Planned features include:
     - Improve error handling and validation.
 
 How to install
+
     - git clone https://github.com/EpicDaxdor/SIEM-Log-Analyser.git
     - cd SIEM-Log-Analyser
     - pip install -r requirements.txt
     - python main.py
+
