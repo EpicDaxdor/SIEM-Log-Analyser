@@ -1,8 +1,5 @@
 🛡 SIEM Log Analyser
 
-Overview
-
-# SIEM Log Analyser
 
 A Python-based Security Information and Event Management (SIEM) log analyser built to simulate common Security Operations Centre (SOC) tasks.
 
@@ -12,7 +9,6 @@ This project was created while teaching myself Python and cybersecurity. Each ve
 Why I Built This Project
 
 I currently work on an IT Service Desk and am working towards a career in Cyber Security, with the goal of becoming a SOC Analyst or Blue Team professional. Rather than following tutorials alone, I wanted to build a real project that would allow me to:
-
     - Learn Python through practical experience. 
     - Understand how security analysts interact with log data. 
     - Learn software development practices using Git and GitHub. 
@@ -38,6 +34,18 @@ Technologies Used
     - Regular Expressions (re) 
     - File Handling 
     - Command Line Interface (CLI)
+
+ Skills Demonstrated
+
+- Python programming
+- File handling
+- Functions
+- Dictionaries
+- Regular expressions
+- CLI application development
+- Git & GitHub
+- Cybersecurity fundamentals
+- Log analysis
 
 Screenshots
 
@@ -79,7 +87,7 @@ Planned features include:
     - Improve error handling and validation.
 
 How to install
-    - git clone ...
-    - cd ...
-    - pip install -r requirements.txt
-    - python main.py
+    git clone https://github.com/EpicDaxdor/SIEM-Log-Analyser.git
+    cd SIEM-Log-Analyser
+    pip install -r requirements.txt
+    python main.py
