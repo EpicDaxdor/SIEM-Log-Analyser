@@ -11,11 +11,11 @@ print ("===============================================\n")
 print ("            SIEM ANALYSER REPORT\n")
 print ("===============================================\n")
 
-Error_count = 0
-Warning_count = 0
-Info_count = 0
-Failed_login_attempts = 0
-Multiple_failed_login_attempts = 0
+error_count = 0
+warning_count = 0
+info_count = 0
+failed_login_attempts = 0
+multiple_failed_login_attempts = 0
 line_count = 0
 
 
@@ -51,11 +51,11 @@ def main_menu():
                 choice = input("Choose an option ? ")
 
                 if choice == "1":
-                        Search_logs()
+                        search_logs()
                 elif choice == "2":
-                        Event_summary()
+                        event_summary()
                 elif choice == "3":
-                        Security_events()
+                        security_events()
                 elif choice == "4":
                         view_suspicious_ips()
                 elif choice == "5":
@@ -65,7 +65,7 @@ def main_menu():
                         print("Invalid Choice, Try again!")     
 
 
-def Search_logs():
+def search_logs():
         print("\n------------ SEARCH RESULTS ------------------\n")
 
         with open("sample_log.txt", 'r') as sample_log:
@@ -76,49 +76,49 @@ def Search_logs():
         input("\nPress Enter to go back to the menu...")
                     
 
-def Event_summary():
+def event_summary():
     print("\n-------------- EVENT SUMMARY -----------------\n")
 
-    global Error_count, Warning_count, Info_count
-    global Failed_login_attempts, Multiple_failed_login_attempts, line_count
+    global error_count, warning_count, info_count
+    global failed_login_attempts, multiple_failed_login_attempts, line_count
 
     
-    Error_count = 0
-    Warning_count = 0
-    Info_count = 0
-    Failed_login_attempts = 0
-    Multiple_failed_login_attempts = 0
+    error_count = 0
+    warning_count = 0
+    info_count = 0
+    failed_login_attempts = 0
+    multiple_failed_login_attempts = 0
     line_count = 0
 
     with open("sample_log.txt", 'r') as sample_log:
         for line in sample_log:
             if "ERROR" in line:
-                Error_count += 1
+                error_count += 1
             if "WARNING" in line:
-                Warning_count += 1
+                warning_count += 1
             if "INFO" in line:
-                Info_count += 1
+                info_count += 1
             if "Failed login attempt" in line:
-                Failed_login_attempts += 1
+                failed_login_attempts += 1
             if "Multiple failed login attempts" in line:
-                Multiple_failed_login_attempts += 1
+                multiple_failed_login_attempts += 1
             line_count += 1
 
     print("LOG FILE NAME: sample_log.txt")
     print("LOG SCAN TIME:", datetime.now(), "\n")
     print("TOTAL LOG ENTRIES:", line_count, "\n")
-    print("ERROR EVENTS FOUND:", Error_count)
-    print("WARNING EVENTS FOUND:", Warning_count)
-    print("INFO EVENTS FOUND:", Info_count)
+    print("ERROR EVENTS FOUND:", error_count)
+    print("WARNING EVENTS FOUND:", warning_count)
+    print("INFO EVENTS FOUND:", info_count)
     input("\nPress Enter to go back to the menu...")
 
 
-def Security_events():
+def security_events():
 
         print("\n------------ SECURITY EVENT SUMMARY-----------\n")
 
-        print("FAILED LOGIN ATTEMPTS:" , Failed_login_attempts)
-        print("MULTIPLE FAILED LOGIN ATTEMPTS:" , Multiple_failed_login_attempts)
+        print("FAILED LOGIN ATTEMPTS:" , failed_login_attempts)
+        print("MULTIPLE FAILED LOGIN ATTEMPTS:" , multiple_failed_login_attempts)
         input("\nPress Enter to go back to the menu...")
 
 def view_suspicious_ips(): 
